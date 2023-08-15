@@ -8,11 +8,11 @@ Args:
 Return
     The calculated area of the rectangle
 '''
-def calculate_area(length, width):
+def calculate_area(length: float, width: float): -> float:
     return length * width
 
 # [Put Docstring in this function]
-def calculate_perimeter(length, width):
+def calculate_perimeter(length: float, width: float): -> float:
     ''''
     Calculate the perimeter of the rectangle using the length and width.
 
@@ -23,6 +23,7 @@ def calculate_perimeter(length, width):
     Return
         The calculated perimeter of the rectangle
     '''
+    
     return 2 * (length + width)
 
 
